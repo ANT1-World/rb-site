@@ -113,7 +113,7 @@ const Distributors = () => {
               Você decide quantas pessoas farão parte da sua equipe de vendas.
             </div>
           </div>
-          <div className=" md:mt0 mt-8 flex flex-col gap-2 items-center justify-center">
+          <div className=" md:mt-0 mt-8 flex flex-col gap-2 items-center justify-center">
             <div className="bg-[#C3117B] h-[48px] w-[48px] rounded-full flex items-center justify-center">
               <img
                 src={Icon2}
@@ -128,10 +128,11 @@ const Distributors = () => {
             </div>
 
             <div className="text-[13px] opacity-40 text-center">
-              Trabalhe no seu ritmo, com flexibilidade total.
+              Trabalhe no seu ritmo, com <br />
+              flexibilidade total.
             </div>
           </div>
-          <div className=" md:mt0 mt-8 flex flex-col gap-2 items-center justify-center">
+          <div className=" md:mt-0 mt-8 flex flex-col gap-2 items-center justify-center">
             <div className="bg-[#C3117B] h-[48px] w-[48px] rounded-full flex items-center justify-center">
               <img
                 src={Icon2}
@@ -149,7 +150,7 @@ const Distributors = () => {
           </div>
         </div>
         <div className=" grid md:grid-cols-3 mt-3">
-          <div className=" md:mt0 mt-8 flex flex-col gap-2 items-center justify-center">
+          <div className=" md:mt-0 mt-8 flex flex-col gap-2 items-center justify-center">
             <div className="bg-[#C3117B] h-[48px] w-[48px] rounded-full flex items-center justify-center">
               <img
                 src={Icon4}
@@ -164,10 +165,10 @@ const Distributors = () => {
             </div>
 
             <div className="text-[13px] opacity-40 text-center">
-              Faça pedidos online, por telefone ou presencialmente.
+              Faça pedidos online, por telefone ou <br /> presencialmente.
             </div>
           </div>
-          <div className=" md:mt0 mt-8 flex flex-col gap-2 items-center justify-center">
+          <div className=" md:mt-0 mt-8 flex flex-col gap-2 items-center justify-center">
             <div className="bg-[#C3117B] h-[48px] w-[48px] rounded-full flex items-center justify-center">
               <img
                 src={Icon5}
@@ -185,7 +186,7 @@ const Distributors = () => {
               Liberdade total para montar seus pedidos conforme a demanda.
             </div>
           </div>
-          <div className="  md:mt0 mt-8 flex flex-col gap-2 items-center justify-center">
+          <div className="  md:mt-0 mt-8 flex flex-col gap-2 items-center justify-center">
             <div className="bg-[#C3117B] h-[48px] w-[48px] rounded-full flex items-center justify-center">
               <img
                 src={Icon6}
