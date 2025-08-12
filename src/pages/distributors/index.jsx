@@ -1,5 +1,5 @@
-import DistributorHeader from "./../../assets/images/distributors-header.svg";
-import DistributorHeaderMobile from "./../../assets/images/distributors-header-mobile.svg";
+import DistributorHeader from "./../../assets/images/distributors-header.png";
+import DistributorHeaderMobile from "./../../assets/images/distributors-header-mobile.png";
 import Icon1 from "./../../assets/images/distributors-icon-1.svg";
 import Icon2 from "./../../assets/images/distributors-icon-2.svg";
 import Icon3 from "./../../assets/images/distributors-icon-3.svg";
@@ -10,7 +10,7 @@ import Icon6 from "./../../assets/images/distributors-icon-6.svg";
 const Distributors = () => {
   return (
     <div className="container mx-auto md:px-[10%] px-3 ">
-      <div className="md:block hidden">
+      <div className="md:block hidden mt-5">
         <img
           src={DistributorHeader}
           alt="Destaque visual da água Rocha Branca"
@@ -23,7 +23,7 @@ const Distributors = () => {
         <img
           src={DistributorHeaderMobile}
           alt="Destaque visual da água Rocha Branca"
-          className="h-[350px] w-auto"
+          className="w-[325px] h-[350px] "
           loading="lazy"
         />
       </div>
@@ -135,7 +135,7 @@ const Distributors = () => {
           <div className=" md:mt-0 mt-8 flex flex-col gap-2 items-center justify-center">
             <div className="bg-[#C3117B] h-[48px] w-[48px] rounded-full flex items-center justify-center">
               <img
-                src={Icon2}
+                src={Icon3}
                 alt="Destaque visual da água Rocha Branca"
                 className="w-[24px] h-[24px]"
                 loading="lazy"

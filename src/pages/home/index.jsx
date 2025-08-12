@@ -1,11 +1,13 @@
 import React from "react";
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
 
-import HomeHighlight from "./../../assets/images/home-highlight.svg";
-import FonteHightlight from "./../../assets/images/fonte.svg";
-import FonteHightlightMobile from "./../../assets/images/font-highlight-mobile.svg";
-import AffiliateHighlight from "./../../assets/images/about-highlight.svg";
-import SubHighlight from "./../../assets/images/sub-highlight.svg";
+import HomeHighlightMobile from "./../../assets/images/home-highlight-mobile.png";
+import HomeHighlight from "./../../assets/images/home-highlight.png";
+import FonteHightlight from "./../../assets/images/fonte.png";
+import FonteHightlightMobile from "./../../assets/images/font-highlight-mobile.png";
+import AffiliateHighlight from "./../../assets/images/about-highlight.png";
+import SubHighlight from "./../../assets/images/sub-highlight.png";
+import SubHighlightMobile from "./../../assets/images/sub-highlight-mobile.png";
 
 const Home = () => {
   return (
@@ -48,9 +50,17 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="md:w-[50%] w-[100%] mt-10 md:mt-0 flex items-center md:justify-end justify-center ">
+          <div className="md:w-[50%] w-[100%] mt-10 md:mt-0  items-center md:justify-end justify-center hidden md:flex">
             <img
               src={HomeHighlight}
+              alt="Destaque visual da água Rocha Branca"
+              className=" w-auto"
+              loading="lazy"
+            />
+          </div>
+          <div className="md:w-[50%] w-[100%] mt-10 md:mt-0 flex items-center md:justify-end justify-center md:hidden ">
+            <img
+              src={HomeHighlightMobile}
               alt="Destaque visual da água Rocha Branca"
               className=" w-auto"
               loading="lazy"
@@ -89,7 +99,7 @@ const Home = () => {
             </a>
           </div>
 
-          <div className=" hidden md:block z-30  mt-5 mb-5">
+          <div className=" hidden md:block z-30 w-full  mt-5 mb-5">
             <img
               src={FonteHightlight}
               alt="Imagem representando a fonte da Rocha Branca"
@@ -113,11 +123,11 @@ const Home = () => {
       <div className=" ">
         <div className="container mx-auto md:pr-[10%] md:pl-[10%] px-2  mt-10 mb-10">
           <div className="flex flex-col md:flex-row  justify-between gap-8  -mt-10">
-            <div className="w-[50%] hidden md:block ">
+            <div className="w-[50%] mt-10 hidden md:block ">
               <img
                 src={AffiliateHighlight}
                 alt="Distribuidor da Rocha Branca"
-                className="h-[510px] "
+                className="w-[650px] "
                 loading="lazy"
               />
             </div>
@@ -161,7 +171,14 @@ const Home = () => {
               <img
                 src={AffiliateHighlight}
                 alt="Distribuidor da Rocha Branca"
-                className="h-[290px] w-full object-contain"
+                className="h-[290px] w-full object-contain md:block hidden"
+                loading="lazy"
+              />
+
+              <img
+                src={SubHighlightMobile}
+                alt="Distribuidor da Rocha Branca"
+                className="h-[325px]object-contain md:hidden block  w-full pl-3 pr-3"
                 loading="lazy"
               />
             </div>

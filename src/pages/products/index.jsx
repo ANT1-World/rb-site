@@ -1,7 +1,7 @@
 import ProductHeader from "./../../assets/images/product-header.svg";
-import ProductHeaderMobile from "./../../assets/images/product-header-mobile.svg";
-import Product10 from "./../../assets/images/product-10.svg";
-import Product20 from "./../../assets/images/product-20.svg";
+import ProductHeaderMobile from "./../../assets/images/product-header-mobile.png";
+import Product10 from "./../../assets/images/product-10.png";
+import Product20 from "./../../assets/images/product-20.png";
 
 const Products = () => {
   return (

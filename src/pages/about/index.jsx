@@ -1,11 +1,11 @@
-import About1 from "./../../assets/images/about.svg";
-import About2 from "./../../assets/images/about-2.svg";
-import About3 from "./../../assets/images/about-3.svg";
-import About4 from "./../../assets/images/about-4.svg";
-import About1Mobile from "./../../assets/images/about-mobile.svg";
-import About2Mobile from "./../../assets/images/about-2-mobile.svg";
-import About3Mobile from "./../../assets/images/about-3-mobile.svg";
-import About4Mobile from "./../../assets/images/about-4-mobile.svg";
+import About1 from "./../../assets/images/about.png";
+import About2 from "./../../assets/images/about-2.png";
+import About3 from "./../../assets/images/about-3.png";
+import About4 from "./../../assets/images/about-4.png";
+import About1Mobile from "./../../assets/images/about-mobile.png";
+import About2Mobile from "./../../assets/images/about-2-mobile.png";
+import About3Mobile from "./../../assets/images/about-3-mobile.png";
+import About4Mobile from "./../../assets/images/about-4-mobile.png";
 import React from "react";
 
 const About = () => {
@@ -17,7 +17,7 @@ const About = () => {
             <img
               src={About1Mobile}
               alt="Imagem mobile destacando a fonte natural da água Rocha Branca"
-              className="h-[350px] w-auto"
+              className="w-full pr-3 pl-3"
               loading="lazy"
             />
           </div>
@@ -47,7 +47,7 @@ const About = () => {
             <img
               src={About1}
               alt="Imagem desktop da fonte natural da água Rocha Branca"
-              className="md:h-[510px] h-[226px] w-auto"
+              className="md:h-[490px] h-[226px] w-auto"
               loading="lazy"
             />
           </div>
@@ -143,7 +143,7 @@ const About = () => {
 
       <section className="container mx-auto md:px-48 px-3 md:mb-0 mb-10">
         <div className="flex md:flex-row flex-col md:mt-0 ">
-          <div className="md:w-[45%] w-full items-center justify-center md:block hidden">
+          <div className="md:w-[45%] mb-4 w-full items-center justify-center md:block hidden">
             <img
               src={About4}
               alt="Imagem desktop de controle de qualidade da Rocha Branca"
